@@ -1,0 +1,6 @@
+*.swp
+_secret.js
+ID
+tags
+node_modules/
+var/

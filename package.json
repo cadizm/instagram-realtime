@@ -1,0 +1,26 @@
+{
+    "name": "instagram-realtime",
+    "version": "0.1.0",
+    "engines": "0.10.x",
+    "author": "Michael Cadiz",
+    "email": "michael.cadiz(at)gmail.com",
+    "private": true,
+    "config": {
+        "port": "3030",
+        "debug": false,
+        "subscription_url": "/tag/roysciclisimocrew"
+    },
+    "main": "server.js",
+    "bin": "bin/instagram-realtime.sh",
+    "files": [
+        "server.js",
+        "lib/",
+        "lib/_secret.js",
+        "lib/roys.js",
+        "bin/instagram-realtime.sh"
+    ],
+    "dependencies": {
+        "express": "3.4.x",
+        "underscore": "1.5.x"
+    }
+}
